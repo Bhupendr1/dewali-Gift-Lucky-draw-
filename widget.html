@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+		<title>Sample Widget</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-slot-machine.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="contain">
+        <img src="./image/Diwalidhamka.jpg" alt="">
+        <div class="overlay">
+          <div class="odometer-container">
+           <div id="odometer" class="odometer">0000000000</div>
+         </div>
+         <button class="spin-button" id="spinButton" onclick="startLuckyDraw()"><h4>Mega Lucky Draw<br>Winner</h4></button>
+        </div>
+      </div>
+    </div>
+    <div class="svg" id="svg"></div>
+    <div class="svg" id="svg2"></div>
+    <canvas id="fireworks" class="fireworks"></canvas>
+    </body>
+</html>
